@@ -145,9 +145,10 @@ Color Generator
   display: flex;
   align-items: center;
   height: 100px;
-  padding-left: 2rem;
+  padding-left: 26rem;
 }
 .container h3 {
+  font-family:'Times New Roman', Times, serif;
   margin-bottom: 0;
   margin-right: 2rem;
 }
@@ -160,7 +161,7 @@ input {
   border-bottom-left-radius: var(--radius);
 }
 .btn {
-  background: var(--clr-primary-5);
+  background: var(--clr-green-dark);
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
   border-color: transparent;
@@ -187,12 +188,14 @@ input.error {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+  margin: 20px;
 }
 .color {
   padding: 1rem 2rem;
   cursor: pointer;
   font-size: 1rem;
   text-transform: none;
+  margin: 1px;
 }
 .percent-value {
   margin-bottom: 0;
